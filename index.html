@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PortFolio By Jorge Cardona!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Jorge</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li>
+                        <a href="#inicio">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="#sobremi">SOBRE MI</a>
+                    </li>
+                    <li>
+                        <a href="#skills">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">PROYECTOS</a>
+                    </li>
+                    <li>
+                        <a href="#contacto">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-duotone fa-bars"></i>
+            </div>
+        </header>
+
+    </div>
+
+    <section class="inicio" id="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="./img/foto.jpeg" alt="ImagenPerfil" srcset="">
+            </div>
+            <h1>JORGE CARDONA</h1>
+            <h2>Ingeniero Mecánico - Desarrollador de software en formación</h2>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>¿Sobre mi?</h2>
+            <p><span>Hola, Soy Jorge Cardona!</span><br> Tengo 24 años, soy de Medellín-Colombia y estudié ingeniería mecánica y me apasionó la rama de la programación. soy un apasionado por la tecnología y por resolver problemas cotidianos para la gente! </p>
+
+            <div class="fila">
+                <figure>
+                    <img src="./img/comomepercibo.png" alt="">
+                </figure>
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>VIAJES EN MOTO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SENDERISMO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-water"></i>
+                            <span>SURF</span>
+                        </div>
+                </div>
+                    </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="skills" class="skills">
+        <figure>
+            <img src="./img/fotalezas.png" alt="imagenfortalezas">
+        </figure>
+        <div class="contenido-fortalezas">
+            <h2>Skills</h2>
+            <div class="contenedor-fortalezas">
+                <div class="fortaleza">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Desarrollo<br>Python</span>
+                </div>
+                <div class="fortaleza">
+                    <i class="fa-solid fa-code"></i>
+                    <span>JavaScript,HTML,CSS</span>
+                </div>
+                <div class="fortaleza">
+                    <i class="fa-solid fa-database"></i>
+                    <span>Conocimientos de lenguaje SQL</span>
+                </div>
+                <div class="fortaleza">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>Pasión por aprender y autodidacta!</span>
+                </div>
+                <div class="fortaleza">
+                    <i class="fa-solid fa-hourglass-start"></i>
+                    <span>Disciplina</span>
+                </div>
+                <div class="fortaleza">
+                    <i class="fa-solid fa-square-check"></i>
+                    <span>Alto sentido de responsabilidad</span>
+                </div>
+                <div class="fortaleza">
+                    <i class="fa-sharp fa-solid fa-ear-listen"></i>
+                    <span>Se escuchar!</span>
+                </div>
+                <div class="fortaleza">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <span>Design Thinking!</span>
+                </div>
+                <div class="fortaleza">
+                    <i class="fa-solid fa-repeat"></i>
+                    <span>Flexible y adaptable</span>
+                </div>
+        </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">   
+            <div class="contenido-seccion">
+                <h2>PROYECTOS</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="img/logo.jpeg" alt="">
+                        <div class="overlay" onclick="location.href='https://jorch11.github.io/AgroX/'">
+                            <h3>Página web</h3>
+                            <p>AgroX</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/google.jpg" alt="">
+                        <div class="overlay" onclick="location.href='https://jorch11.github.io/Google-search-clone/'">
+                            <h3>Clon</h3>
+                            <p>Buscador Google</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/descarga.png" alt="">
+                        <div class="overlay" onclick="location.href='https://jorch11.github.io/Pokemon-Game.github.io/'">
+                            <h3>Juego</h3>
+                            <p>Pokemón</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <p> Nombre: Jorge Luis Cardona Vélez</p>
+                    <p> Número: +57 3017795321</p>
+                    <p> Correo: jlcardonav99@gmail.com</p>
+                    <p>Github: https://github.com/Jorch11</p>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Medellín-Colombia
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-sharp fa-solid fa-angles-up"></i>
+        </a>
+    </footer>
+</body>
+</html>
